@@ -45,6 +45,10 @@ img.blogimage {
   display: block;
 }
 
+img.clipped {
+  clip-path: inset(30% 0 30% 0);
+}
+
 time.blogdate,
 span.author {
   color: #8f8f8f;
@@ -116,3 +120,44 @@ button#dark-light-button {
   margin: 1em;
   width: 8em;
 }
+
+/* stuff for button image zooming */
+/* link: https://css-tricks.com/zooming-background-images/ */
+.parent {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  background-size: cover;
+  transition: all 0.5s;
+  /* stuff for the text inside */
+  line-height: 200px;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.bg-image-1 {
+  background-image: url("../images/first-attempts-title.jpg");
+}
+
+.bg-image-placeholder {
+  background-image: url("../images/solenoid.jpg");
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.2);
+}
+/* end of stuff for button image zooming */
