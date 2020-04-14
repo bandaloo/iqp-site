@@ -152,6 +152,10 @@ button#dark-light-button {
   background-image: url("../images/first-attempts-title.jpg");
 }
 
+.bg-image-corona {
+  background-image: url("../images/corona-virus-title.jpg");
+}
+
 .bg-image-placeholder {
   background-image: url("../images/solenoid.jpg");
 }
