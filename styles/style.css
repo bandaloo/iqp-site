@@ -11,6 +11,10 @@ body a {
   transition: color 0.5s;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 body.dark-mode {
   color: #e2e2e2;
   background-color: #242424;
