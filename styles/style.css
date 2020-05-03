@@ -164,6 +164,14 @@ button#dark-light-button {
   background-image: url("../images/solenoid.jpg");
 }
 
+.bg-image-video-gallery {
+  background-image: url("../images/video-gallery-title.jpg");
+}
+
+.bg-image-woodworking {
+  background-image: url("../images/legs-standing.jpg");
+}
+
 .parent:hover .child,
 .parent:focus .child {
   transform: scale(1.2);
