@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Invention of the Electric Motor</title>
+    <meta
+      name="description"
+      content="Blog about the restoration and improvement of Thomas Davenport motor"
+    />
+    <meta name="author" content="Cole Granof and Sam Johnson" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body id="body" class="dark-mode">
+    <main>
+      <h1>Back to the Drawing Board</h1>
+
+      <br />
+
+      <span class="author">Cole Granof and Sam Johnson</span>
+      <figure>
+        <img
+          src="images/magnet-paper-screenshot.png"
+          alt="old motor"
+          class="blogimage"
+        />
+        <figcaption>
+          Image from
+          <i
+            >De Magnete Magneticisque Corporibus et de Magno Magnete Tellure
+            Physiologia Nova</i
+          >
+          as reproduced in the paper "The Early History of The Permanent Magnet"
+          by Edward Neville Da Costa Andrade. Depicted is the process of
+          smoothing an iron rod in the direction of Earth's magnetic field.
+        </figcaption>
+      </figure>
+
+      <p></p>
+      <h2>Permanent Magnet History</h2>
+      <p>
+        The reader would likely be surprised by how difficult it is to research
+        the subject of the history of developing permanent magnets. The most
+        helpful source that we found, titled "The Early History of The Permanent
+        Magnet" by Edward Neville Da Costa Andrade, makes this observation as
+        well. The paper mentions that little is known about how powerful these
+        centuries-old artificial magnets were, or the precise methods for how
+        these magnets were made. Even though "the history of magnetism has been
+        but little explored" by the author's own admission, the details that are
+        known are surprisingly practical. Most modern information about how to
+        create a magnet requires expensive industrial equipment we (and Thomas
+        Davenport) did not have access to. Ironically, the details from
+        experiments on magnets performed centuries ago by people who did not
+        fully understand electromagnetism were <i>more</i> practical to us than
+        modern-day sources about manufacturing a magnet. However, some of these
+        centuries-old sources contained literal superstition about how magnets
+        functioned. Information such as the fact that garlic and goats' blood
+        could sap magnetic power, were, of course, less practical.
+      </p>
+      <p>
+        One of the most notable contributors to early permanent artificial
+        magnet research was William Gilbert, who published
+        <i
+          >De Magnete Magneticisque Corporibus et de Magno Magnete Tellure
+          Physiologia Nova</i
+        >
+        in 1600. This book is a rare book that costs more than a luxury car, and
+        we could not find any translations online. Luckily for us, the paper
+        summarizes the three methods that Gilbert outlines for creating
+        permanent magnets. Furthermore, these three methods were the main
+        methods for producing a permanent artifical magnet well into the 19th
+        century (3).
+      </p>
+      <ul>
+        <li>
+          1. Touching a load-stone to a piece of iron very gently, drawing it
+          out from the middle
+        </li>
+        <li>2. Forging iron in the direction of the Earth's magnetic field</li>
+        <li>
+          3. While red-hot heat destroys magnetism, leaving a peice of iron to
+          cool in the direction of Earth's magnetic field would acquire magnetic
+          properties.
+        </li>
+      </ul>
+      <p>
+        Option 1 presupposes the existence of another magnet, and is best for
+        creating compass needles. For our motor, we were going to need a much
+        stronger magnet, so the load-stone touching method was not as
+        interesting to us as the other two methods.
+      </p>
+      <p>
+        We entertained option 2 for a short while, briefly looking at ways to
+        create a backyard forge. However, we deemed that this wouldn't be
+        entirely practical for us.
+      </p>
+      <p>
+        The third option is interesting, because what Gilbert is observing is
+        the Curie Temperature. Pierre Curie discovered and the laws that govern
+        how magnetism relates to heat in 1895, centuries after Gilbert published
+        his observations about magnetism and red-hot heat in 1600. This also
+        reaffirmed that we were headed in the right direction with our previous
+        attempts where we heated up iron and let it cool in the presence of a
+        magnetic field.
+      </p>
+      <p>
+        Throughout the 17th century, there were not many new methods being
+        developed. Instead, these methods were refined and improved. However, in
+        the 18th century, there were a few novel methods that were published.
+        One such method was developed by Gowin Knight. (Interestingly, the
+        method was developed in secret, and published after his death.) Instead
+        of a normal bar of iron, he created a "sludge" of iron oxide powder by
+        moving a tub of water and the powder back and forth for a long time. He
+        then hardened the sludge with linseed oil and magnetized the resulting
+        material using existing magnets. Apparently, this resulted in strong
+        magnets (6). While this method was interesting to us since we were
+        having trouble purchasing raw iron (we previously settled on low-carbon
+        steel,) it was clear that this method was particularly involved.
+      </p>
+      <h2>New Plan</h2>
+      <p>
+        Since our previous attempts with a charcoal fire failed, we decided to
+        focus less on being period-accurate with our experiments. Instead of
+        using a charcoal fire, we opted to heat the metal with an acetalyne
+        torch to achieve temperatures to surpass the Curie Point. Similarly, we
+        decided to replace the PVC pipe and magnet wire solenoid with a new
+        setup that would also create an approximately uniform field. The
+        solenoid setup we previously had was difficult to use and melted
+        quickly. Instead of relying on the magnetic field of the earth, we
+        purchased two powerful neodymium magnets for the purpose of supplying an
+        external magnetic field. To replace the uniform field created on the
+        inside of a solenoid, the neodymium magnets would act as two plates,
+        which also approximates a uniform magnetic field.
+      </p>
+    </main>
+
+    <!-- TODO should this button go in the footer? -->
+    <footer>
+      <p><a href="index.html">Home</a></p>
+      <button
+        id="dark-light-button"
+        title="Toggle light/dark mode (t)"
+        onClick="toggleMode()"
+      >
+        Light Mode
+      </button>
+    </footer>
+  </body>
+  <script src="scripts/darklight.js"></script>
+</html>

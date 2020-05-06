@@ -12,7 +12,7 @@ body a {
 }
 
 figcaption {
-  font-style: italic;
+  font-size: 12pt;
 }
 
 body.dark-mode {
@@ -150,6 +150,7 @@ button#dark-light-button {
   font-weight: bold;
   font-size: 32px;
   color: white;
+  text-shadow: 2px 2px 4px black;
 }
 
 .bg-image-1 {
@@ -170,6 +171,10 @@ button#dark-light-button {
 
 .bg-image-woodworking {
   background-image: url("../images/legs-standing.jpg");
+}
+
+.bg-image-paper {
+  background-image: url("../images/magnet-paper-screenshot.png");
 }
 
 .parent:hover .child,
