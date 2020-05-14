@@ -177,6 +177,10 @@ button#dark-light-button {
   background-image: url("../images/magnet-paper-screenshot.png");
 }
 
+.bg-image-patent {
+  background-image: url("../images/motor-patent-cropped.jpeg");
+}
+
 .parent:hover .child,
 .parent:focus .child {
   transform: scale(1.2);
