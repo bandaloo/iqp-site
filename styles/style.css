@@ -181,6 +181,10 @@ button#dark-light-button {
   background-image: url("../images/motor-patent-cropped.jpeg");
 }
 
+.bg-image-heating {
+  background-image: url("../images/heating-steel.jpg");
+}
+
 .parent:hover .child,
 .parent:focus .child {
   transform: scale(1.2);
