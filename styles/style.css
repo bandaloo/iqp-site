@@ -185,6 +185,14 @@ button#dark-light-button {
   background-image: url("../images/heating-steel.jpg");
 }
 
+.bg-image-heating {
+  background-image: url("../images/heating-steel.jpg");
+}
+
+.bg-image-post-mortem {
+  background-image: url("../images/sitting-next-to-original.jpg");
+}
+
 .parent:hover .child,
 .parent:focus .child {
   transform: scale(1.2);
